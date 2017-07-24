@@ -12,7 +12,10 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.5.4.RELEASE</version>
     </parent>
-    
+
+    <properties>
+        <jackson.version>2.9.0.pr4</jackson.version>
+    </properties>    
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
